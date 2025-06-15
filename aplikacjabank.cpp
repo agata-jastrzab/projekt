@@ -165,7 +165,7 @@ int main() {
 
     } while (opcja != 0);
 
-    // Zwolnij pamięć
+    
     for (auto k : klienci)
         delete k;
 
